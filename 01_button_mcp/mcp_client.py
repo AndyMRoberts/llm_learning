@@ -33,7 +33,8 @@ def read_message(proc):
 
 def main():
     # 1. Spawn the MCP Server Process
-    # TODO: Use subprocess.Popen to launch 'sys.executable' running 'SERVER_SCRIPT'.
+    # TODO: Use subprocess.Popen to launch 'sys.executable' (chooses same as current file)
+    #  running 'SERVER_SCRIPT'.
     # TODO: Set stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True (or bufsize=1).
     proc = subprocess.Popen([sys.executable, str(SERVER_SCRIPT)],
         stdin=subprocess.PIPE, 

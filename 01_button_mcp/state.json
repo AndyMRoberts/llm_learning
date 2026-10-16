@@ -1,6 +1,5 @@
 {
-  "yes": true,
+  "yes": false,
   "no": false,
-  "destroy": false,
-  "name": true
+  "destroy": false
 }

@@ -1,3 +1,3 @@
 # LLM Learning
 
-A repo for learning some of the more production-important properties of LLM's. 
+A repo for simplifying learning some of the more production-important properties of LLM's. 
