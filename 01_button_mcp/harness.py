@@ -7,7 +7,7 @@ import argparse
 # Path to your manually written MCP server script
 SERVER_SCRIPT = "mcp_server.py"
 GUI_SCRIPT = "button_gui.py"
-OLLAMA_MODEL = "qwen3:8B" # qwen3:8B, llama3.
+OLLAMA_MODEL = "qwen3:8B" # qwen3:8B, llama3.2
 
 # You can reuse your send_message and read_message functions from the previous client script here
 def send_message(proc, message_dict):

@@ -57,6 +57,7 @@ def startup():
     return state
 
 root = Tk()
+root.title("LLM Communication Panel")
 state = startup()
 frm = ttk.Frame(root, padding=10)
 frm.grid(column=3, row=3)
