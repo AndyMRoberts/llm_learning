@@ -1,7 +1,7 @@
 """Central settings. (Given – no TODOs.) Change values here when experimenting."""
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 DOCS_DIR = ROOT / "docs"
 CHROMA_DIR = ROOT / "chroma_db"
 COLLECTION_NAME = "agronomy_naive"
