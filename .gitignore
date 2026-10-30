@@ -1,7 +1,5 @@
 *.pyc
-02_rag/docs/Hyperspectral Image Analysis.pdf
-02_rag/docs/Precision Agriculture 23.pdf
-02_rag/docs/UAVs in Agriculture.pdf
-02_rag/excluded_docs/Hyperspectral Image Analysis.pdf
-02_rag/excluded_docs/Precision Agriculture 23.pdf
-02_rag/excluded_docs/UAVs in Agriculture.pdf
+02_rag/docs/
+02_rag/excluded_docs/
+02_rag/chroma_db/
+.vscode/settings.json
