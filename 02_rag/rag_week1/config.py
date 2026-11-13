@@ -17,6 +17,7 @@ CHUNK_OVERLAP = 150
 
 # Retrieval
 TOP_K = 4
+MIN_SCORE = 0.6
 
 # Generation (Ollama model tag)
-LLM_MODEL = "llama3.1:8b"
+LLM_MODEL = "qwen3:8B"

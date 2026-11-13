@@ -51,5 +51,5 @@ if __name__ == "__main__":
         print("\n=== ", q)
         for r in retrieve(q):
             print(f"[{r['score']:.3f}] {r['source']} p.{r['page']}: {r['text'][:150]}...")
-    # TODO 3.6: Note the score range for relevant vs irrelevant queries.
-    #           Could you use a score threshold to say "I don't know"? (Try it in main.py.)
+    # 3.6: Note the score range for relevant vs irrelevant queries.
+    #      Could you use a score threshold to say "I don't know"? (Try it in main.py.)
