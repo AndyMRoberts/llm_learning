@@ -121,7 +121,8 @@ def build_chunks(docs: list[dict]) -> list[dict]:
         for i, chunk in enumerate(chunked_text):
             chunk_dict ={
                 "id": f"{doc["source"]}::p{doc["page"]}::c{i}", 
-                "text": chunk
+                "text": chunk,
+                'page': doc["page"],
                 } 
             total_chunk_count += 1
             total_chunk_cumulative += len(chunk)
@@ -151,4 +152,5 @@ if __name__ == "__main__":
         print("-" * 60)
         print(c["id"])
         print(c["text"])
+        print(c["page"])
     # 1.11: READ the chunks. Are formulas intact? Is table text garbled? Write down 2 observations.

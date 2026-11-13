@@ -81,9 +81,9 @@ def build_index(chunks: list[dict], batch_size: int = 64) -> None:
         batch = chunks[start:start + batch_size]
         collection.add(
             ids=[str(chunk["id"]) for chunk in batch],
-            documents=[chunk["text"] for chunk in batch], 
+            documents=[chunk["text"] for chunk in batch],
             embeddings=embed_texts([chunk["text"] for chunk in batch]), 
-            metadatas=[{"source": chunk["id"]} for chunk in batch] # don't think this will work
+            metadatas=[{"source": chunk["id"], "page": chunk["page"]} for chunk in batch] # don't think this will work
         )
     print(f'Collection Count: {collection.count()}')
     print(f'Length Chunks: {len(chunks)}')
